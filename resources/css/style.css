@@ -6,12 +6,12 @@ html {
 body {
   font-family: Helvetica, sans-serif;
   line-height: 1.4em;
-  text-transform: uppercase;
 }
 
 .company {
   background-color: black;
   color: white;
+  text-transform: uppercase;
 }
 .container {
   max-width: 960px;
@@ -42,6 +42,7 @@ body {
 }
 h1, h4 {
   font-weight: bold;
+  text-transform: uppercase;
 }
 .featured h1 {
   font-size: 2rem;
