@@ -6,6 +6,7 @@ html {
 body {
   font-family: Helvetica, sans-serif;
   line-height: 1.4em;
+  text-transform: uppercase;
 }
 
 .company {
@@ -19,11 +20,26 @@ body {
 .company .container {
   display: flex;
   align-items: center;
-  text-transform: uppercase;
   padding: 12px 0 12px 0.5em;
 }
 .company img {
   height: 1.5em;
   padding-right: 15px;
 }
-.
+.main-banner {
+  background-image: url(../images/moto.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 25em;
+}
+.featured {
+  background-color: black;
+  color: white;
+  width: 20em;
+  padding: 2em 3em;position: relative;
+  top: 9em;
+}
+h1, h4 {
+  font-weight: bold;
+}
