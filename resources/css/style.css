@@ -109,18 +109,16 @@ footer {
 .mobile-nav {
   display: none;
 }
+
+/* Tablet responsive design */
 @media only screen and (max-width: 1024px) {
   body {
     font-size: 16px;
   }
-}
-@media only screen and (max-width: 1024px) {
   .mobile-nav {
     display: block;
     text-align: center;
   }
-}
-@media only screen and (max-width: 1024px) {
   nav ul {
     display: none;
   }
@@ -129,5 +127,23 @@ footer {
   }
   .product {
     width: 47%;
+  }
+}
+
+/* Mobile Responsive Design */
+@media only screen and (max-width: 470px) {
+  .featured {
+    width: 100%;
+    padding: 1em 2em;
+    top: 10em;
+  }
+  .main-banner {
+    height: 15em;
+  }
+  .featured h4 {
+    font-size: 0.77rem;
+  }
+  .featured h1 {
+    font-size: 1rem;
   }
 }
