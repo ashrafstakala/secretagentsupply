@@ -48,3 +48,13 @@ h1, h4 {
   line-height: 1.2em;
   margin: 0.25em 0;
 }
+nav {
+  background-color: firebrick;
+  color: white;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
