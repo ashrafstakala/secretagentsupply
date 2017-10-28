@@ -43,3 +43,8 @@ body {
 h1, h4 {
   font-weight: bold;
 }
+.featured h1 {
+  font-size: 2em;
+  line-height: 1.2em;
+  margin: 0.25em 0;
+}
